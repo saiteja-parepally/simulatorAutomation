@@ -7,6 +7,6 @@ services:
       - '4000:4000'
   frontend:
     container_name: ted_frontend
-    image: tegfleettrackeracr.azurecr.io/frontend:0.0.8
+    image: tegfleettrackeracr.azurecr.io/frontend:0.0.9
     ports:
       - '62195:62195'
